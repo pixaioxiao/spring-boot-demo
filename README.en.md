@@ -18,6 +18,7 @@
   <span>English | <a href="./README.md">中文</a></span>
 </p>
 
+https://github.com/xkcoding/spring-boot-demo
 ## Introduction
 
 `spring boot demo` is a project for learning and practicing `spring boot`, including `66` demos, and `55` of them have been done.

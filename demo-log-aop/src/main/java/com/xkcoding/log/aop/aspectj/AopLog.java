@@ -65,6 +65,7 @@ public class AopLog {
     // 打印请求相关参数
     long startTime = System.currentTimeMillis();
     Object result = point.proceed();
+    // 用户代理信息:用来识别发起请求的客户端的机制，包含客户端软件版本号、浏览器版本、操作系统或其他环境信息等。
     String header = request.getHeader("User-Agent");
     UserAgent userAgent = UserAgent.parseUserAgentString(header);
 
